@@ -1,0 +1,75 @@
+body{
+    background-color: #2a9d8f;
+    margin-left: 10px;
+}
+.square{
+   text-align: center;
+    display: flex;
+    display: inline;
+    width: 200px;
+}
+.square  button{
+   width: 100px;
+   background-color: #2a9d8f;
+   height: 100px;
+}
+.firstRow1{
+   border: 0;
+   /* background-color:aqua; */
+   border-right: 2px solid;
+}
+.firstRow2{
+   border: 0;
+   /* background-color:aqua; */
+   border-right: 2px solid;
+}
+.firstRow3{
+   border: 0;
+   /* background-color:aqua; */
+}
+.secondRow1{
+   border: 0;
+   /* background-color:aqua; */
+   border-right: 2px solid;
+   border-top: 2px solid;
+}
+.secondRow2{
+   border: 0;
+   /* background-color:aqua; */
+   border-right: 2px solid;
+   border-top: 2px solid;
+}
+.secondRow3{
+   border: 0;
+   /* background-color:aqua; */
+   border-top: 2px solid;
+}
+.thirdRow1{
+   border: 0;
+   /* background-color:aqua; */
+   border-right: 2px solid;
+   border-top: 2px solid;
+}
+.thirdRow2{
+   border: 0;
+   /* background-color:aqua; */
+   border-right: 2px solid;
+   border-top: 2px solid;
+}
+.thirdRow3{
+   border: 0;
+
+   border-top: 2px solid;
+}
+
+#start{
+margin: 100px;
+width: 150px;
+height: inherit;
+background-color: #2a9d8f;
+}
+.party{
+   visibility:hidden;
+   align-items: center;
+   display: inline-flex;
+}
