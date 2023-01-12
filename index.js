@@ -14,7 +14,7 @@ btn.forEach((btns, index) => {
     if (game) {
       if (!flag && !check[index]) {
         playSound.play();
-        btn[index].style.backgroundImage = "url('/cross.png')";
+        btn[index].style.backgroundImage = "url('cross.png')";
         value[index] = -1;
         console.log(index);
         console.log(-1);
@@ -34,7 +34,7 @@ btn.forEach((btns, index) => {
       } else if (flag && !check[index]) {
         flag = 0;
         playSound.play();
-        btn[index].style.backgroundImage = "url('/zero.png')";
+        btn[index].style.backgroundImage = "url('zero.png')";
         check[index] = 1;
         console.log(index);
         console.log(0);
