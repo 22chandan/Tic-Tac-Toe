@@ -2,8 +2,8 @@ var party = document.querySelector(".party");
 const startNewGame = document.querySelector(".restart");
 const btn = document.querySelectorAll("#btn");
 var game = 1;
-var playSound = new Audio("/click.mp3");
-var playSound1 = new Audio("/clap.mp3");
+var playSound = new Audio("click.mp3");
+var playSound1 = new Audio("clap.mp3");
 
 var flag = 0;
 var check = [0, 0, 0, 0, 0, 0, 0, 0, 0];
