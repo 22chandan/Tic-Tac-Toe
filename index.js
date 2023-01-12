@@ -1,3 +1,4 @@
+// var party = document.querySelector(".party");
 var party = document.querySelector(".party");
 const startNewGame = document.querySelector(".restart");
 const btn = document.querySelectorAll("#btn");
@@ -24,11 +25,10 @@ btn.forEach((btns, index) => {
           game = 0;
           console.log("win the match");
           playSound1.play();
-          var party = document.querySelector(".party");
           party.style.visibility = "visible";
           startNewGame.style.margin = "40px";
           var win = document.querySelector(".winner");
-          win.innerHTML = "Player 2 win the match";
+          win.innerHTML = "Player 1 win the match";
         }
         dis.innerHTML = "Next player is 0";
       } else if (flag && !check[index]) {
