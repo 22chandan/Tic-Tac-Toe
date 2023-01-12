@@ -1,3 +1,4 @@
+var win = document.querySelector(".winner");
 // var party = document.querySelector(".party");
 var party = document.querySelector(".party");
 const startNewGame = document.querySelector(".restart");
@@ -27,7 +28,7 @@ btn.forEach((btns, index) => {
           playSound1.play();
           party.style.visibility = "visible";
           startNewGame.style.margin = "40px";
-          var win = document.querySelector(".winner");
+          // var win = document.querySelector(".winner");
           win.innerHTML = "Player 1 win the match";
         }
         dis.innerHTML = "Next player is 0";
@@ -47,7 +48,6 @@ btn.forEach((btns, index) => {
           console.log(party);
           party.style.visibility = "visible";
           startNewGame.style.margin = "40px";
-          var win = document.querySelector(".winner");
           win.innerHTML = "Player 2 win the match";
         }
         dis.innerHTML = "Next player is X";
@@ -65,6 +65,8 @@ function reset() {
   value = [2, 3, 4, 5, 6, 7, 8, 9, 10];
   game = 1;
   party.style.visibility = "hidden";
+  startNewGame.style.margin = "100px";
+  // playSound1.pause();
 }
 
 function winOrNot(value) {
